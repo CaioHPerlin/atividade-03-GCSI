@@ -1,8 +1,38 @@
 * {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
-  text-align: center;
+  background-color: #1e1e2f;
+  color: #c9c9ff;
   margin: 0;
-  padding: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: #d1b3ff;
+}
+
+h2 {
+  color: #b39ddb;
+}
+
+pre {
+  text-align: left;
+  color: #e1e1ff;
+  font-family: "Courier New", Courier, monospace;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.ascii-item {
+  background-color: #2e2e3f;
+  border: 1px solid #4a4a6a;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.ascii-item p {
+  color: #a1a1ff;
 }
