@@ -56,3 +56,12 @@ pre {
 .ascii-item p {
   color: #a1a1ff;
 }
+
+#dog-container {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#dog-container:hover {
+  transform: scale(1.02);
+}
